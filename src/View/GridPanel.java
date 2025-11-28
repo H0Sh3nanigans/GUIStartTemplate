@@ -47,7 +47,7 @@ public class GridPanel extends JPanel {
         }
 
         if (gridRep != null) {
-            // the grid rep will have the information about what it should be draing in the
+            // the grid rep will have the information about what it should be drawing in the
             // cells
             for (int row = 0; row < 10; row++) {
                 for (int column = 0; column < 10; column++) {
