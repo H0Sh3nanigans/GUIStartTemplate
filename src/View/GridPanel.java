@@ -117,7 +117,7 @@ public class GridPanel extends JPanel {
 
         // Creating a 2d graphic peg
         Graphics2D g2d = (Graphics2D) g;
-        // setting the color of pen to whtie
+        // setting the color of pen to white
         g2d.setColor(Color.WHITE);
         // created a circle using the dimension
         Ellipse2D.Double circle = new Ellipse2D.Double(upperLeftX, upperLeftY, Constants.Dimension.PEG_DIAMETER,
