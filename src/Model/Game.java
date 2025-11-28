@@ -72,7 +72,7 @@ public class Game implements ShotDelegate {
         // check for end of game
         if (otherPlayer.shipsAreSunk()) {
             // send status message
-            notifyStatus(String.format("Game Over: The winner is --> %s%n,", currentPlayer.getName()));
+            notifyStatus(String.format("Game Over: The winner is --> %s%n", currentPlayer.getName()));
             return;
         }
         // swap turns
