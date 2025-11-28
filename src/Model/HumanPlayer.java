@@ -32,7 +32,7 @@ public class HumanPlayer implements Player, ShotDelegate {
 
     @Override
     public void takeShot() {
-        // wair for player to click the target grid
+        // wait for player to click the target grid
     }
 
     @Override
