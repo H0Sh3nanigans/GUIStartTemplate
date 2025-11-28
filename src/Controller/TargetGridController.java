@@ -23,7 +23,7 @@ public class TargetGridController {
         viewListener = new GridPanelListener();
         view.addMouseListener(viewListener);
 
-        // listen for notificaitons from the model
+        // listen for notifications from the model
         modelListener = new TargetGridListener();
         model.addListener(modelListener);
     }
